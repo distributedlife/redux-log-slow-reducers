@@ -46,5 +46,8 @@
   },
   "bugs": {
     "url": "https://github.com/distributedlife/redux-log-slow-reducers/issues"
+  },
+  "dependencies": {
+    "present": "^1.0.0"
   }
 }
