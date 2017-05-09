@@ -1,3 +1,6 @@
 {
-    "extends": "michaelcontento"
+    "extends": "michaelcontento",
+    "globals": {
+      "__DEV__": true
+    }
 }
