@@ -1,6 +1,6 @@
 {
   "name": "distributedlife-redux-log-slow-reducers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Warn about slow reducers used in your redux app.",
   "main": "lib/index.js",
   "scripts": {
