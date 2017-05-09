@@ -8,7 +8,7 @@ export default function logSlowReducers(reducers, thresholdInMs = 8) {
             const result = originalReducer(state, action);
             const diffInMs = Date.now() - start;
             if (diffInMs >= thresholdInMs) {
-                console.warn('Reducer "' + name + '" took ' + diffInMs + 'ms for ' + action.type);
+                console.warn(`Reducer "${name}" took ${diffInMs}ms for ${action.type}`);
             }
             return result;
         };

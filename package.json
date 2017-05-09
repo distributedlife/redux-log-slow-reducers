@@ -1,17 +1,23 @@
 {
-  "name": "redux-log-slow-reducers",
-  "version": "0.0.2",
+  "name": "distributedlife-redux-log-slow-reducers",
+  "version": "1.0.0",
   "description": "Warn about slow reducers used in your redux app.",
   "main": "lib/index.js",
   "scripts": {
     "test": "make ci",
     "prepublish": "make build lint"
   },
+  "files": [
+    "package.json",
+    "lib/index.js",
+    "README.md",
+    "LICENSE.txt"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelcontento/redux-log-slow-reducers.git"
+    "url": "git+https://github.com/distributedlife/redux-log-slow-reducers.git"
   },
-  "homepage": "https://github.com/michaelcontento/redux-log-slow-reducers",
+  "homepage": "https://github.com/distributedlife/redux-log-slow-reducers",
   "keywords": [
     "redux",
     "redux-middleware",
@@ -39,6 +45,6 @@
     "redux": "^3.0.0 || ^2.0.0 || ^1.0.0"
   },
   "bugs": {
-    "url": "https://github.com/michaelcontento/redux-log-slow-reducers/issues"
+    "url": "https://github.com/distributedlife/redux-log-slow-reducers/issues"
   }
 }
